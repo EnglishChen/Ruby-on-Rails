@@ -22,7 +22,7 @@ computer_choice = num_to_choice (computer_input)
 decide (user_input, computer_input)
 
 #===============================
-def decide (user_input, computer_choice)
+def decide (user_input,computer_choice)
 	if user_input =='S'
 		if computer_choice =='R'
 			puts " you lose"
